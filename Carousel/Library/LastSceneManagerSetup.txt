@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Carousel.unity
+- path: Assets/Carousel20211120.unity
   isLoaded: 1
   isActive: 1
