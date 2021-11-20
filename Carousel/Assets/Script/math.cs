@@ -32,9 +32,6 @@ public class math : MonoBehaviour {
 		
 	}
 
-
-
-
 	// Update is called once per frame
 	void Update () 
 	{
@@ -95,12 +92,8 @@ public class math : MonoBehaviour {
 
 	public void OnClick_B()
 	{
-
-
 		SV.SetBool ("click_d",true);
 		StartCoroutine ("SetTime");
-
-
 	}
 
 	IEnumerator	SetTime(){
@@ -108,6 +101,5 @@ public class math : MonoBehaviour {
 		yield return new WaitForSeconds (1);
 		SV.SetBool ("click_d",false);
 		SV.enabled = false;
-
 	}
 }
